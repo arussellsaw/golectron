@@ -1,0 +1,74 @@
+html,body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 0px;
+  margin-left: 30px;
+}
+
+#main {
+  width: 800px;
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.sidebar {
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1bf10;
+  width: 180px;
+  padding-left: 20px;
+  height: 100%;
+}
+
+.main-chat {
+  background-color: #ffffff;
+  overflow-y: scroll;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.chat-message {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: row;
+}
